@@ -198,7 +198,7 @@ document.getElementById("canvas").click();
 
     function update() {
     // check keys
-    if (keys[38] || keys[32]) {
+    if (keys[38]) {
         // jump - space, up or w
         if (!player.jumping && player.grounded) {
             player.jumping = true;
