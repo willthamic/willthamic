@@ -273,7 +273,7 @@ document.getElementById("canvas").click();
     player.y += player.velY;
 
     ctx.fill();
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "#00FF00";
     ctx.fillRect(player.x, player.y, player.width, player.height);
 
     requestAnimationFrame(update);

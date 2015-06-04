@@ -1,6 +1,7 @@
 html {
     background-image: url("backgroundPattern.png");
-	background-size: 50%;
+	background-size: 700px;
+	background-position: center;
 }
 
 canvas {
