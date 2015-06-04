@@ -1,7 +1,6 @@
-document.addEventListener('DOMContentLoaded',domloaded,false);
-function domloaded(){
-document.getElementById("canvas").click();
-
+document.addEventListener('DOMContentLoaded', domloaded, false);
+function domloaded() {
+	
 (function () {
     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
     window.requestAnimationFrame = requestAnimationFrame;
@@ -242,14 +241,8 @@ document.getElementById("canvas").click();
 			player.x = -100;
 		}
 	}
-	if (player.y < 220) {
-		document.getElementById("search").disabled = false;
-		player.x = -100;
-		player.y = 1000;
-		document.getElementById("search").click();
-	}
-
-    player.velX *= friction;
+	
+	velX *= friction;
     player.velY += gravity;
 
     ctx.clearRect(0, 0, width, height);
