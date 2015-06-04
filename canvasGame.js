@@ -205,14 +205,12 @@ document.getElementById("canvas").click();
             player.grounded = false;
             player.velY = -player.speed * 2.5;
         }
-		document.getElementById("search").value = "";
     }
     if (keys[39]) {
         // move right - d or right arrow
         if (player.velX < player.speed) {
             player.velX++;
         }
-		document.getElementById("search").value = "";
 
     }
     if (keys[37]) {
@@ -220,7 +218,6 @@ document.getElementById("canvas").click();
         if (player.velX > -player.speed) {
             player.velX--;
         }
-		document.getElementById("search").value = "";
     }
 	//redirects
 		
@@ -242,18 +239,12 @@ document.getElementById("canvas").click();
 			player.x = -100;
 		}
 	}
-	if (player.y < 220) {
-		document.getElementById("search").disabled = false;
-		player.x = -100;
-		player.y = 1000;
-		document.getElementById("search").click();
-	}
 
     player.velX *= friction;
     player.velY += gravity;
 
     ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "white";
     ctx.beginPath();
 
     player.grounded = false;
