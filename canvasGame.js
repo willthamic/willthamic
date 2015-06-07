@@ -13,7 +13,7 @@ function domloaded() {
         width = 1000,
         height = window.innerHeight,
         player = {
-            x: 493,
+            x: 492.5,
             y: -10,
             width: 15,
             height: 15,
@@ -181,7 +181,7 @@ function domloaded() {
         }
         //redirects
         if (linked == 0) {
-            if (player.y > 500) {
+            if (player.y > 600) {
                 if (player.x > 100 && player.x < 200) {
                     window.location =
                         "https://willthamic.github.io/CSS-Loader";
