@@ -3,9 +3,17 @@ html {
 	background-size: 30%;
 }
 
+body {
+	margin-top:0;
+	margin-bottom:0;
+}
+
 canvas {
     padding-left: 0;
     padding-right: 0;
     display: block;
 	margin:auto;
+	overflow:hidden;
+	margin-top:0;
+	margin-bottom:0;
 }
