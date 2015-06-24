@@ -183,20 +183,19 @@ function domloaded() {
         if (linked == 0) {
             if (player.y > 600) {
                 if (player.x > 100 && player.x < 200) {
-                    window.location =
-                        "https://willthamic.github.io/CSS-Loader";
+					link1();
                     linked = 1;
                 }
                 if (player.x > 300 && player.x < 400) {
-                    window.location = "https://willthamic.github.io/2";
+					link2();
                     linked = 1;
                 }
                 if (player.x > 600 && player.x < 700) {
-                    window.location = "https://willthamic.github.io/3";
+					link3();
                     linked = 1;
                 }
                 if (player.x > 800 && player.x < 900) {
-                    window.location = "https://willthamic.github.io/4";
+					link4();
                     linked = 1;
                 }
             }

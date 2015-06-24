@@ -17,3 +17,14 @@ canvas {
 	margin-top:0;
 	margin-bottom:0;
 }
+
+.clear {
+    -webkit-transition : all 2s ease-out;
+    -moz-transition : all 2s ease-out;
+    -o-transition : all 2s ease-out;
+    transition : all 2s ease-out;
+}
+
+.black {
+	background-color:black;
+}
