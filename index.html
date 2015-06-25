@@ -5,24 +5,25 @@
     <title>Homepage Game</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script>
+		setTimeout(function(){document.getElementById("fadeIn").className = "fadedIn";}, 500);
 		var linked = 0;
 		function link1 () {
-			document.getElementById("fade").className = "faded";
+			document.getElementById("fadeOut").className = "fadedOut";
 			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);
 		}
 		
 		function link2 () {
-			document.getElementById("fade").className = "faded";
+			document.getElementById("fadeOut").className = "fadedOut";
 			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);			
 		}
 		
 		function link3 () {
-			document.getElementById("fade").className = "faded";
+			document.getElementById("fadeOut").className = "fadedOut";
 			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);
 		}
 		
 		function link4 () {
-			document.getElementById("fade").className = "faded";
+			document.getElementById("fadeOut").className = "fadedOut";
 			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);
 		}
 	</script>
@@ -139,7 +140,8 @@
                                                           `.:+syyyyyysssooo++/-.                                                                      
 -->
 <body>
-	<div id="fade" class="normal" style="position:absolute;"></div>
+	<div id="fadeOut" class="normalOut" style="position:absolute;"></div>
+	<div id="fadeIn" class="normalIn" style="position:absolute;"></div>
     	<canvas id="canvas"></canvas>
 	
 </body>

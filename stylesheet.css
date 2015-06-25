@@ -18,7 +18,25 @@ canvas {
 	margin-bottom:0;
 }
 
-#fade {
+#fadeIn {
+	background-color:black;
+	width:100%;
+	height:100%;
+	-webkit-transition : all 1s ease-in;
+    -moz-transition : all 1s ease-in;
+    -o-transition : all 1s ease-in;
+    transition : all 1s ease-in;
+}
+
+.normalIn {
+    opacity:1;
+}
+
+.fadedIn {
+	opacity:0;
+}
+
+#fadeOut {
 	background-color:white;
 	width:100%;
 	height:100%;
@@ -28,10 +46,10 @@ canvas {
     transition : all 1s ease-out;
 }
 
-.normal {
+.normalOut {
     opacity:0;
 }
 
-.faded {
+.fadedOut {
 	opacity:1;
 }
