@@ -1,11 +1,9 @@
 html {
-    margin-top:0;
-	margin-bottom:0;
+    margin:0;
 }
 
 body {
-	margin-top:0;
-	margin-bottom:0;
+	margin:0;
 	background-image: url("backgroundPattern.png");
 	background-size: 30%;
 }
