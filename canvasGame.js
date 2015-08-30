@@ -204,6 +204,19 @@ function domloaded() {
         player.velY += gravity;
         ctx.clearRect(0, 0, width, height);
         ctx.fillStyle = "white";
+		
+		var img = document.getElementById("gravityicon");
+		ctx.drawImage(gravityicon, 115, 220, 75, 75);
+		
+		var img = document.getElementById("appicon");
+		ctx.drawImage(appicon, 315, 220, 75, 75);
+		
+		//var img = document.getElementById("gravityicon");
+		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
+		
+		//var img = document.getElementById("gravityicon");
+		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
+		
         ctx.beginPath();
         player.grounded = false;
         for (var i = 0; i < boxes.length; i++) {

@@ -5,16 +5,16 @@
     <title>Homepage Game</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script>
-		setTimeout(function(){document.getElementById("fadeIn").className = "fadedIn";}, 500);
+		setTimeout(function(){document.getElementById("fadeIn").className = "fadedIn"; document.getElementById('fadeIn').style.display = 'none'; document.getElementById('fadeOut').style.display = 'none';}, 500);
 		var linked = 0;
 		function link1 () {
 			document.getElementById("fadeOut").className = "fadedOut";
-			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);
+			setTimeout(function(){ window.location = "https://willthamic.github.io/GravityTesting"; }, 1500);
 		}
 
 		function link2 () {
 			document.getElementById("fadeOut").className = "fadedOut";
-			setTimeout(function(){ window.location = "https://willthamic.github.io/CSS-Loader"; }, 1500);
+			setTimeout(function(){ window.location = "https://willthamic.github.io/AppTemplate/index.html"; }, 1500);
 		}
 
 		function link3 () {
@@ -142,9 +142,13 @@
 <body>
 	<div id="fadeOut" class="normalOut" style="position:absolute;"></div>
 	<div id="fadeIn" class="normalIn" style="position:absolute;"></div>
+		<img src="gravityicon.png" style="display:none;" id="gravityicon">
+		<img src="appicon.png" style="display:none;" id="appicon">
+		<img>
+		<img>
     	<canvas id="canvas"></canvas>
 	<div id="footer">
-		<p>test</p>
+		<p style="color:#AAA;">This is a footer. If you're on mobile or have no hand–eye coordination here are links to the individual pages: <a href="GravityTest">  Gravity Test  </a> - <a href="AppTemplate/index.html">  AppTemplate  </a> - <a href="CSS-Loader">  CSS-Loader  </a> - <a href="CSS-Loader">  CSS-Loader  </a></p>
 	</div>
 
 </body>
