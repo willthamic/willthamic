@@ -212,7 +212,7 @@ function domloaded() {
 		ctx.drawImage(icon2, 315, 220, 75, 75);
 
 		var img = document.getElementById("icon3");
-		ctx.drawImage(icon3, 515, 220, 75, 75);
+		ctx.drawImage(icon3, 615, 220, 75, 75);
 
 		//var img = document.getElementById("gravityicon");
 		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
