@@ -215,7 +215,7 @@ function domloaded() {
 		ctx.drawImage(icon3, 615, 220, 75, 75);
 
 		var img = document.getElementById("icon4");
-		ctx.drawImage(gravityicon, 715, 220, 75, 75);
+		ctx.drawImage(icon4, 715, 220, 75, 75);
 
         ctx.beginPath();
         player.grounded = false;
