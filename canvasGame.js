@@ -211,8 +211,8 @@ function domloaded() {
 		var img = document.getElementById("icon2");
 		ctx.drawImage(icon2, 315, 220, 75, 75);
 		
-		//var img = document.getElementById("gravityicon");
-		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
+		var img = document.getElementById("icon3");
+		ctx.drawImage(icon3, 115, 220, 75, 75);
 		
 		//var img = document.getElementById("gravityicon");
 		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
