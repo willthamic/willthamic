@@ -205,11 +205,11 @@ function domloaded() {
         ctx.clearRect(0, 0, width, height);
         ctx.fillStyle = "white";
 		
-		var img = document.getElementById("gravityicon");
-		ctx.drawImage(gravityicon, 115, 220, 75, 75);
+		var img = document.getElementById("icon1");
+		ctx.drawImage(icon1, 115, 220, 75, 75);
 		
-		var img = document.getElementById("appicon");
-		ctx.drawImage(appicon, 315, 220, 75, 75);
+		var img = document.getElementById("icon2");
+		ctx.drawImage(icon2, 315, 220, 75, 75);
 		
 		//var img = document.getElementById("gravityicon");
 		//ctx.drawImage(gravityicon, 115, 220, 75, 75);
