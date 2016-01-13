@@ -154,6 +154,42 @@ function domloaded() {
         width: 5,
         height: 75,
     });
+    boxes.push({
+        x: 425,
+        y: 325,
+        width: 50,
+        height: 5,
+    });
+    boxes.push({
+        x: 525,
+        y: 325,
+        width: 50,
+        height: 5,
+    });
+    boxes.push({
+        x: 400,
+        y: 250,
+        width: 50,
+        height: 5,
+    });
+    boxes.push({
+        x: 550,
+        y: 250,
+        width: 50,
+        height: 5,
+    });
+    boxes.push({
+        x: 650,
+        y: 175,
+        width: 350,
+        height: 5,
+    });
+    boxes.push({
+        x: 0,
+        y: 175,
+        width: 350,
+        height: 5,
+    });
     canvas.width = width;
     canvas.height = height;
 
@@ -199,6 +235,16 @@ function domloaded() {
                     linked = 1;
                 }
             }
+			if (player.y < 200) {
+				if (player.x > 800) {
+					link6();
+					linked = 1;
+				}
+				if (player.x < 200) {
+					link5();
+					linked = 1;
+				}
+			}
         }
         player.velX *= friction;
         player.velY += gravity;
@@ -216,6 +262,12 @@ function domloaded() {
 
 		var img = document.getElementById("icon4");
 		ctx.drawImage(icon4, 815, 220, 75, 75);
+		
+		var img = document.getElementById("icon5");
+		ctx.drawImage(icon5, 015, 90, 75, 75);
+		
+		var img = document.getElementById("icon6");
+		ctx.drawImage(icon6, 915, 90, 75, 75);
 
         ctx.beginPath();
         player.grounded = false;
