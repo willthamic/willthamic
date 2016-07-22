@@ -1,0 +1,12 @@
+.navbar {
+	position:absolute;
+	margin-bottom:0;
+	width: 90%;
+	z-index:10;
+	margin-left:5%;
+	margin-top:20px;
+}
+
+.item {
+	border:1px solid black;
+}
