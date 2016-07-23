@@ -33,3 +33,9 @@ img.logo {
 .container p {
 	margin-bottom:50px;
 }
+
+.footer.row {
+	width:90%;
+	margin:auto;
+	margin-bottom:30px;
+}
