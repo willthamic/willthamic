@@ -1,12 +1,35 @@
 .navbar {
 	position:absolute;
-	margin-bottom:0;
 	width: 90%;
 	z-index:10;
 	margin-left:5%;
 	margin-top:20px;
+	border-radius: 0;
+	text-transform: uppercase;
 }
 
-.item {
-	border:1px solid black;
+h1 {
+	text-align:center;
+	text-transform: uppercase;
+	margin:10rem 0;
+}
+
+.navbar-brand {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	color:black !important;
+}
+
+img.logo {
+	height:100%;
+	display:inline-block;
+}
+
+.container img {
+	box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.container p {
+	margin-bottom:50px;
 }
