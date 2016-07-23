@@ -1,17 +1,25 @@
-# willthamic.github.io
-this is a file
-I'll work on it later.
+# Will Hamic
 
-It has now been three months. I will never finish this file.
+## Main
 
-https://willthamic.github.io/Center/
+[Color Spaces](http://willhamic.me/color-spaces)
 
-https://willthamic.github.io/AppTemplate/
+[CSS 3D Transforms](http://willhamic.me/css-3d-transforms)
 
-https://willthamic.github.io/bootstrap.html
+[Treads](http://willhamic.me/treads)
 
-https://willthamic.github.io/ImageGallery/
+[Atomic Mass Calculator](http://willhamic.me/chem-tools)
 
-https://willthamic.github.io/ChemTools/
+[Markov](http://willhamic.me/markov)
 
-https://willthamic.github.io/Bootstrap/carl-cat-hat.htmls
+## Framework
+
+[Stackable Houses](http://willhamic.me/framework/stackable-houses)
+
+[App Template](http://willhamic.me/images/framework/app-template.png)
+
+## Misc
+
+[igal's Bulbs](http://willhamic.me/igalsbulbs/)
+
+[The KingCam Quiz](http://willhamic.me/KingCamQuiz/)
