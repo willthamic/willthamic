@@ -22,14 +22,14 @@
 	</head>
 	<body>
 		<div class="wrapper">
-		<video class="video" controls>
+		<video class="video" controls onplay="func()>
 			<source src="wp1.mp4" type="video/mp4">
 		</video>
 		</div> 
 		<script>
-			var elem = document.querySelector("video");
-			elem.onplay = function() {
-				elem.setAttribute("pointer-events","none");
+			function func() {
+				var elem = document.querySelector("video");
+				elem.style.pointerEvents = "none";
 			}
 		</script>
 	</body>
