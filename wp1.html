@@ -22,14 +22,20 @@
 	</head>
 	<body>
 		<div class="wrapper">
-		<video class="video" controls onplay="func()">
+		<video class="video" controls onplay="vonplay()" onseeking="vonseeking()">
 			<source src="wp1.mp4" type="video/mp4">
 		</video>
 		</div> 
 		<script>
-			function func() {
+			function vonplay() {
 				var elem = document.querySelector("video");
 				elem.style.pointerEvents = "none";
+			}
+			
+			function vonseeking() {
+				elem.pause();
+				elem.currentTime = 0;
+				elem.play();
 			}
 		</script>
 	</body>
