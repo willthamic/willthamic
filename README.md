@@ -18,6 +18,3 @@
 
 [App Template](http://willhamic.me/images/framework/app-template.png)
 
-## Misc
-
-[igal's Bulbs](http://willhamic.me/igalsbulbs/)
