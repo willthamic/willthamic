@@ -21,5 +21,3 @@
 ## Misc
 
 [igal's Bulbs](http://willhamic.me/igalsbulbs/)
-
-[The KingCam Quiz](http://willhamic.me/KingCamQuiz/)
